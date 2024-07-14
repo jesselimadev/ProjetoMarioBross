@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Configurações da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario-Bross</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <div class="header">
+        <img class="logo-mostrar-caixa-principal" src="img/imagem.header1.png" alt="logo-header" height="83px"
+            width="131px" title="LOGO RESET!" style="cursor: pointer;">
+        <a class="item1-Home">Home</a>
+        <a class="item2-Fale-Conosco">Fale Conosco</a>
+        <a class="item3-Nossos-Serviços">Nossos Serviços</a>
+        <img class="logo-mario-e-luigi" src="img/imagem.header2.png" height="80px" width="190px">
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="img/logotipo-central.png" alt="imagem-logotipo-do-mario-bross" class="logo-mario"
+                title="CLIQUE AQUI PARA VISÃO FULL!!!">
+            <p>
+                <!-- Texto introdutório -->
+                Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo!
+            </p>
+            <p>
+                <!-- Mais informações -->
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+            </p>
+            <button onclick="mostrarForm()">Entre em Contato</button>
+        </div>
+        <div>
+            <!-- Imagem de Mario e Luigi -->
+            <img src="img/mario-e-luigi.png" alt="imagem-de-mario-e-luigi" class="mario-e-luigi">
+        </div>
+    </div>
+
+    <!-- Vídeo em destaque -->
+    <div class="caixa-video">
+        <video src="video/Video.mp4" autoplay muted loop></video>
+    </div>
+    <div class="mascara"></div>
+
+    <!-- Link para WhatsApp -->
+    <a href="https://wa.link/pgmrrx" class="link-whatsapp">
+        <img src="img/whatsapp.png" alt="link-para-whatsapp" width="50px">
+    </a>
+
+    <!-- Formulário de contato -->
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/oFX9uiAA4pb" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Gostou do site? Faça seu orçamento aqui deixe suas dúvidas..." name="duvida"></textarea>
+        <button type="submit" class="btn1">Pedir orçamento</button>
+    </form>
+
+    <!-- Máscara para o formulário -->
+    <div onclick="esconderForm()" class="mascara-formulario"></div>
+
+    <!-- Mensagem de Aviso passagem rápida -->
+    <div id="aviso">
+        Clique na logo à esquerda para resetar! Mobile à direita!
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        Este site é apenas um modelo demonstrativo. Se gostou e precisa de um website, entre em contato preenchendo o
+        formulário ou pelo WhatsApp. Obrigado!
+        <p class="text">Desenvolvedor - Front-end - Jessé Lima.</p>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>
