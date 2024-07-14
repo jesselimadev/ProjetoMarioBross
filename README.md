@@ -41,4 +41,4 @@ Este projeto está licenciado sob a [MIT License](LICENSE). Sinta-se à vontade 
 
 ---
 
-Desenvolvido por Jessé Lima - [GitHub](https://github.com/jesselimadev)) | [LinkedIn](https://www.linkedin.com/in/jessé-lima-oliveira/) | [Website](https://seusite.com)    
+Desenvolvido por Jessé Lima - [GitHub](https://github.com/jesselimadev)) | [LinkedIn](https://www.linkedin.com/in/jessé-lima-oliveira/) | [Website](https://jesse-lima-web-designer.netlify.app/)    
