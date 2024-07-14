@@ -262,7 +262,7 @@ video {
     position: fixed;              /* Define o posicionamento como fixo*/
     right: 17%;                  /* Desloca 17% para a direita*/
     bottom: 26rem;              /* Desloca 26rem para baixo*/
-    border-color: #000000;   /* Define a cor da borda como preto (#000000)*/
+    border-color: #000000;     /* Define a cor da borda como preto (#000000)*/
     border: 0.5625rem;        /* Define a largura da borda como 0.5625rem (aproximadamente 9px)*/
     font-weight: bold;       /* Define a fonte do texto como negrito*/
     transition: 1s ease-in; /* Adiciona uma transição suave de 1 segundo*/
@@ -273,11 +273,11 @@ video {
 .link-whatsapp img:hover {
     width: 3.5rem;                            /* Define a largura como 3.5rem (aproximadamente 56px)*/
     height: 3.5rem;                          /* Define a altura como 3.5rem (aproximadamente 56px)*/
-    background-color: rgb(255, 255, 255); /* Define a cor de fundo como branco*/
+    background-color: rgb(255, 255, 255);   /* Define a cor de fundo como branco*/
     border-radius: 100%;                   /* Arredonda as bordas com um raio de 100% (forma circular)*/
     padding: 0.3125rem;                   /* Adiciona um preenchimento interno de 0.3125rem (aproximadamente 5px)*/
     border-style: double;                /* Define o estilo da borda como dupla*/
-    border-color: #000000;            /* Define a cor da borda como preto (#000000)*/
+    border-color: #000000;              /* Define a cor da borda como preto (#000000)*/
     transition: 1s ease-in-out;        /* Adiciona uma transição suave de 1 segundo*/
 }
 
@@ -302,9 +302,9 @@ video {
 input {
     height: 2.5rem;                   /* Altura do input*/
     border-radius: 0.3125rem;        /* Raio do canto arredondado*/
-    border: 0.0625rem solid gray; /* Borda sólida cinza*/
+    border: 0.0625rem solid gray;   /* Borda sólida cinza*/
     padding-left: 0.3125rem;       /* Preenchimento à esquerda*/
-    outline-color: #31e60c;     /* Cor da borda de foco (quando selecionado)*/
+    outline-color: #31e60c;       /* Cor da borda de foco (quando selecionado)*/
 }
 
 
@@ -313,18 +313,18 @@ textarea {
     width: 16.875rem;                  /* Largura do textarea*/
     height: 6.25rem;                  /* Altura do textarea*/
     border-radius: 0.3125rem;        /* Raio do canto arredondado*/
-    border: 0.0625rem solid gray; /* Borda sólida cinza*/
+    border: 0.0625rem solid gray;   /* Borda sólida cinza*/
     padding-left: 0.3125rem;       /* Preenchimento à esquerda*/
-    outline-color: #31e60c;     /* Cor da borda de foco (quando selecionado)*/
+    outline-color: #31e60c;       /* Cor da borda de foco (quando selecionado)*/
 }
 
 /* Estilos para o seletor .formulario-fale-conosco .btn1*/
 .formulario-fale-conosco .btn1 {
     position: relative;                       /* Posição relativa*/
-    left: 0rem;                             /* Deslocamento para a esquerda (ajuste conforme necessário)*/
+    left: 0rem;                              /* Deslocamento para a esquerda (ajuste conforme necessário)*/
     font-size: 0.9375rem;                   /* Tamanho da fonte*/
-    color: white;                        /* Cor do texto*/
-    background-color: #C51111;          /* Cor de fundo*/
+    color: white;                          /* Cor do texto*/
+    background-color: #C51111;            /* Cor de fundo*/
     border-radius: 3px;                  /* Raio do canto arredondado*/
     border: none;                       /* Borda (nenhuma)*/
     width: 12.5rem;                    /* Largura*/
@@ -419,6 +419,8 @@ footer {
 .deslizarParaEsquerda {
     animation: deslizarParaEsquerda 2s forwards; /* Animação com duração de 2 segundos e mantém o estado final após a animação*/
 }
+
+                 /* RESPONSIVIDADE */
 
 /* Estilos para telas com largura entre 360px e 640px */
 @media only screen and (min-width: 360px) and (max-width: 640px) {
@@ -580,7 +582,7 @@ button {
     position: fixed;             /* Posição fixa na tela*/
     right: 0.5rem;               /* Distância da direita*/
     top: 33.5rem;                /* Distância do topo*/
-    border-color: #000000;     /* Cor da borda*/
+    border-color: #000000;      /* Cor da borda*/
     border: 0.5625rem;           /* Largura da borda*/
     font-weight: bold;           /* Peso da fonte (negrito)*/
     transition: 1s ease-in;      /* Transição suave de 1 segundo*/
@@ -628,7 +630,7 @@ video {
  }
 
 
-                        /* RESPONSIVIDADE */
+                      
 
 /* Estilos para telas com largura entre 320px e 658px*/
 @media only screen and (min-width: 320px) and (max-width: 658px) {
